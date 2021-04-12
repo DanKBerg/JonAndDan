@@ -36,15 +36,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="164dp"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="223dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:background="#DDF3D2"
         android:onClick="Calender"
-        android:text="@string/Button_to_next"
+        android:scaleType="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/swords"
+        android:contentDescription="@string/Swords" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
