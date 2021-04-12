@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CustomCalendar</string>
+    <string name="Buttonplaceholder">Button</string>
+    <string name="Pressswordtext">Press The Sword To Continue</string>
+    <string name="TitleText"> Table Top Calender Creator</string>
 </resources>
