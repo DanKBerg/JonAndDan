@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DDF3D2"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_width="197dp"
         android:layout_height="107dp"
         android:layout_marginStart="104dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="104dp"
         android:fontFamily="@font/amarante"
         android:text="@string/Pressswordtext"
         android:textAlignment="center"
@@ -42,12 +42,12 @@
         android:layout_height="272dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="44dp"
-        android:background="#DDF3D2"
+        android:background="#00DDF3D2"
+        android:contentDescription="@string/Swords"
         android:onClick="Calender"
         android:scaleType="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/swords"
-        android:contentDescription="@string/Swords" />
+        app:srcCompat="@drawable/swords" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
