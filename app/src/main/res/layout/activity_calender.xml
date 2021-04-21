@@ -20,11 +20,12 @@
 
         <ImageView
             android:id="@+id/calendar_prev_button"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="67dp"
+            android:layout_height="61dp"
             android:layout_centerVertical="true"
             android:layout_marginRight="40dp"
-            app:srcCompat="@drawable/arrow_left_chevron_chevronleft_left_left_icon_icon_1320185731545502691" />
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/arrow_2" />
 
         <LinearLayout
             android:id="@+id/date_display"
@@ -81,13 +82,16 @@
 
         <ImageView
             android:id="@+id/calendar_next_button"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="63dp"
+            android:layout_height="60dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="40dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
             android:layout_toEndOf="@id/date_display"
             android:layout_toRightOf="@id/date_display"
-            app:srcCompat="@drawable/arrow_right_chevron_chevronleft_left_left_icon_icon_1320185731545502691" />
+            android:background="#00FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/arrow_1" />
     </RelativeLayout>
 
     <LinearLayout
