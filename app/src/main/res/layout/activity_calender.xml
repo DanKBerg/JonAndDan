@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.247"
-        app:srcCompat="@drawable/arrow_left_chevron_chevronleft_left_left_icon_icon_1320185731545502691" />
+        app:srcCompat="@drawable/neonarrowl" />
 
     <TextView
         android:id="@+id/dayTitle"
@@ -74,19 +74,19 @@
         app:layout_constraintStart_toEndOf="@+id/yearTitle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.247"
-        app:srcCompat="@drawable/arrow_right_chevron_chevronleft_left_left_icon_icon_1320185731545502691" />
+        app:srcCompat="@drawable/neonarrowr" />
 
     <ImageView
         android:id="@+id/nextMonthArrow"
-        android:layout_width="67dp"
-        android:layout_height="72dp"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/monthTitle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.437"
-        app:srcCompat="@drawable/arrow_1" />
+        app:srcCompat="@drawable/woodarrowr" />
 
     <TextView
         android:id="@+id/year"
@@ -129,7 +129,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.625"
-        app:srcCompat="@drawable/arrow_2" />
+        app:srcCompat="@drawable/dragonarrowl" />
 
     <ImageView
         android:id="@+id/nextDayArrow"
@@ -141,7 +141,7 @@
         app:layout_constraintStart_toEndOf="@+id/dayTitle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.625"
-        app:srcCompat="@drawable/arrow_1" />
+        app:srcCompat="@drawable/stonearrowr" />
 
     <TextView
         android:id="@+id/day"
@@ -159,8 +159,8 @@
 
     <ImageView
         android:id="@+id/previousMonthArrow"
-        android:layout_width="67dp"
-        android:layout_height="72dp"
+        android:layout_width="56dp"
+        android:layout_height="66dp"
         android:layout_marginStart="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/monthTitle"
@@ -168,7 +168,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.437"
-        app:srcCompat="@drawable/arrow_2" />
+        app:srcCompat="@drawable/woodarrowl" />
 
     <Button
         android:id="@+id/editButton"
