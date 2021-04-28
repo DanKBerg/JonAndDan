@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:hint="Enter year (2020)" />
+
+    <EditText
+        android:id="@+id/edit_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_year"
+        android:layout_marginTop="16dp"
+        android:hint="Enter month (5)" />
+
+    <EditText
+        android:id="@+id/maximum_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_month"
+        android:layout_marginTop="16dp"
+        android:hint="Enter month maximum (12)" />
+
+    <EditText
+        android:id="@+id/edit_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maximum_month"
+        android:layout_marginTop="16dp"
+        android:hint="Enter day (21)" />
+
+    <EditText
+        android:id="@+id/maximum_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_day"
+        android:layout_marginTop="16dp"
+        android:hint="Enter day maximum (31)" />
+
+</RelativeLayout>
