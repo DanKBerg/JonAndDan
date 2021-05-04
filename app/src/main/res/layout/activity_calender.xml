@@ -179,18 +179,18 @@
 
     <ImageButton
         android:id="@+id/editButton"
-        android:layout_width="152dp"
-        android:layout_height="146dp"
+        android:layout_width="126dp"
+        android:layout_height="125dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
         android:src="@drawable/wizardhat"
         android:text="@string/EditValues"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintHorizontal_bias="0.968"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.943" />
+        app:layout_constraintVertical_bias="0.926" />
 
     <ImageButton
         android:id="@+id/Button"
@@ -208,19 +208,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.943" />
 
-    <Button
+    <ImageButton
         android:id="@+id/lunarButton"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="87dp"
-        android:layout_height="76dp"
-        android:backgroundTint="@color/purple_200"
-        android:text="Edit Lunar Cycle"
+        android:layout_width="112dp"
+        android:layout_height="141dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:src="@drawable/moonbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
+        app:layout_constraintVertical_bias="0.936" />
 
     <ImageView
         android:id="@+id/lunarCycleImage"
@@ -238,9 +238,35 @@
         android:id="@+id/textView3"
         android:layout_width="98dp"
         android:layout_height="42dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
         android:text="@string/textview"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lunarButton" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="98dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="276dp"
+        android:text="@string/textview2"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lunarButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="98dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/textview3"
+        android:textAlignment="center"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

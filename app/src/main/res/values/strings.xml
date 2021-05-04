@@ -11,4 +11,6 @@
     <string name="DayTitle">DAY</string>
     <string name="EditValues">EDIT</string>
     <string name="textview">Edit Calendar</string>
+    <string name="textview2">Next Day</string>
+    <string name="textview3">Edit Moon Cycle</string>
 </resources>

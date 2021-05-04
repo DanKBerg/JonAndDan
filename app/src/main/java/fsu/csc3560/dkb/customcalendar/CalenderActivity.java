@@ -27,7 +27,7 @@ public class CalenderActivity extends AppCompatActivity implements EditDialog.Ed
     private int maximumNumDay;
 
     private ImageButton editButton;
-    private Button lunarButton;
+    private ImageButton lunarButton;
 
     private double lunarCycle = 4;
     private ImageView lunarCycleImage;
