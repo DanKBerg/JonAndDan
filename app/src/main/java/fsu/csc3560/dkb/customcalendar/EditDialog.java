@@ -38,13 +38,16 @@ public class EditDialog extends AppCompatDialogFragment {
                 .setPositiveButton("submit", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+
                         Integer yearResult = Integer.valueOf(year.getText().toString());
                         Integer monthResult = Integer.valueOf(month.getText().toString());
                         Integer monthMaximumResult = Integer.valueOf(monthMaximum.getText().toString());
                         Integer dayResult = Integer.valueOf(day.getText().toString());
                         Integer dayMaximumResult = Integer.valueOf(dayMaximum.getText().toString());
 
+
                         listener.applyValues(yearResult, monthResult, monthMaximumResult, dayResult, dayMaximumResult);
+
                     }
                 });
 

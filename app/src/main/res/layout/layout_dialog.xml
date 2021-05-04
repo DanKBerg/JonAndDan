@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-        android:hint="Enter year (2020)" />
+        android:hint="Enter year (2020)"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/edit_month"
@@ -17,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_year"
         android:layout_marginTop="16dp"
-        android:hint="Enter month (5)" />
+        android:hint="Enter month (5)"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/maximum_month"
@@ -25,7 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_month"
         android:layout_marginTop="16dp"
-        android:hint="Enter month maximum (12)" />
+        android:hint="Enter month maximum (12)"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/edit_day"
@@ -33,7 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/maximum_month"
         android:layout_marginTop="16dp"
-        android:hint="Enter day (21)" />
+        android:hint="Enter day (21)"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/maximum_day"
@@ -41,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_day"
         android:layout_marginTop="16dp"
-        android:hint="Enter day maximum (31)" />
+        android:hint="Enter day maximum (31)"
+        android:inputType="number" />
 
 </RelativeLayout>
