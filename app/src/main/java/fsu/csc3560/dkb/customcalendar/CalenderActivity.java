@@ -188,13 +188,13 @@ public class CalenderActivity extends AppCompatActivity implements EditDialog.Ed
             lunarCycleImage.setImageResource(R.drawable.new_moon);
         }
         else if (currentLunarCycleCount <= (lunarCyclePhaseCount * 2)){
-            lunarCycleImage.setImageResource(R.drawable.first_quarter);
+            lunarCycleImage.setImageResource(R.drawable.third_quarter);
         }
         else if (currentLunarCycleCount <= (lunarCyclePhaseCount * 3)){
             lunarCycleImage.setImageResource(R.drawable.fullmoon);
         }
         else if(currentLunarCycleCount <= (lunarCyclePhaseCount * 4)){
-            lunarCycleImage.setImageResource(R.drawable.third_quarter);
+            lunarCycleImage.setImageResource(R.drawable.first_quarter);
         }
     }
 }
